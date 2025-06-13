@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #183153;
+}
+
+#play{
+    border: 0;
+    background-color: #adaaab;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.player{
+    height: 90px;
+    width: 300px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 35px;
+    background-color: #adaaab;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.imagenzinha{
+    height: 100px;
+    margin: auto;
+}
+
+.titulo_musica{
+    font-size: 20px;
+}
+
+.player{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #adaaab;
+}
+
+.infos_audio{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.container_imagem{
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
+
+.imagem_nossa{
+    height: 400px;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 20px;
+}
+
+.site{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tempoPassado{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.tempo_juntos{
+    color: #adaaab;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto{
+    width: 300px;
+    margin-top: 30px;
+    border-top: 2px solid #adaaab;
+}
+
+.textoDefinitivo{
+    margin-top: 20px;
+    text-align: justify;
+    color: #adaaab;
+    margin-bottom: 20px;
+}
